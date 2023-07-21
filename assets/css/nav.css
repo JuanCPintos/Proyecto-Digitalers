@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+}
+ul, li, .logo{
+    display: inline;
+}
+.img-logo{
+    width: 40px;
+}

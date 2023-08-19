@@ -5,3 +5,30 @@
 img{
     width: 100%;
 }
+
+/* Estilos de la descripcion menu*/
+.descripcion-menu{
+    width: 100%;
+    display: flex;
+}
+.desc-menu-texto{
+    width: 50%;
+}
+.desc-menu-img{
+    width: 50%;
+}
+
+/* Estilos de sobre nosotros*/
+.sobre-nosotros{
+    width: 100%;
+    display: flex;
+}
+.sobre-nosotros-texto{
+    width: 50%;
+    order: 2;
+}
+
+.sobre-nosotros-img{
+    width: 50%;
+    order: 1;
+}

@@ -1,9 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
 body{
     margin: 0;
 }
 ul, li, .logo{
-    display: inline;
+    display: flex;
+    align-items: center;
 }
+nav{
+    position: absolute;
+    width: 100%;
+}
+/*Estilo del logo*/
 .img-logo{
-    width: 40px;
+    width: 30%;
+    
+}
+.logo{
+    justify-content: center;
+}
+/*Estilo de lista*/
+.nav-lista{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: beige;
+    text-decoration: none;
 }

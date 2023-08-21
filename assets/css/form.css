@@ -1,13 +1,18 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #7a6360;
     margin: 0;
     padding: 0;
+}
+nav{
+    position: relative;
+    background-color: #272323;
 }
 
 h1 {
     text-align: center;
     margin-top: 20px;
+    color: #f5f5dc;
 }
 
 form {
@@ -28,8 +33,9 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="password"],
+input[type="number"],
 select {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;

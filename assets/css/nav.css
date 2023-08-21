@@ -3,6 +3,7 @@
 
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 ul, li, .logo{
     display: flex;
@@ -14,11 +15,12 @@ nav{
 }
 /*Estilo del logo*/
 .img-logo{
-    width: 30%;
+    width: 20%;
     
 }
 .logo{
     justify-content: center;
+    margin: 15px;
 }
 /*Estilo de lista*/
 .nav-lista{
